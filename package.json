@@ -4,8 +4,8 @@
     "description": "A Butter provider for Videos found on local hard drives",
     "main": "index.js",
     "butter": {
-        "timeout": 20000,
-        "testArgs": "lvl?]"
+        "timeout": 200000,
+        "testArgs": "lvl?debug=true"
     },
     "scripts": {
         "test": "tape ./node_modules/butter-provider/tests/*"
@@ -26,7 +26,9 @@
     },
     "homepage": "https://github.com/butterproviders/butter-provider-local-video-library#readme",
     "dependencies": {
-        "butter-provider": "^0.9.7"
+        "butter-provider": "https://github.com/butterproviders/butter-provider",
+        "debug": "^2.6.8",
+        "local-video-library": "https://github.com/vankasteelj/local-video-library"
     },
     "devDependencies": {
         "tape": "^4.5.1"
