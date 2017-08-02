@@ -1,0 +1,5 @@
+This is a [[https://github.com/butterproject][Butter]] provider to access content from your local hard drive. It
+will scrape a given location and try to match metadata with trakt.tv.
+
+if you want to find more info on Butter Providers check the [[https://github.com/butterproject/butter-provider][Butter Provider
+Docs]].
