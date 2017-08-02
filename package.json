@@ -1,0 +1,34 @@
+{
+    "name": "butter-provider-local-video-library",
+    "version": "0.0.1",
+    "description": "A Butter provider for Videos found on local hard drives",
+    "main": "index.js",
+    "butter": {
+        "timeout": 20000,
+        "testArgs": "lvl?]"
+    },
+    "scripts": {
+        "test": "tape ./node_modules/butter-provider/tests/*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/butterproviders/butter-provider-local-video-library.git"
+    },
+    "keywords": [
+        "local-video-library",
+        "butter",
+        "streaming"
+    ],
+    "author": "Niv Sardi",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/butterproviders/butter-provider-local-video-library/issues"
+    },
+    "homepage": "https://github.com/butterproviders/butter-provider-local-video-library#readme",
+    "dependencies": {
+        "butter-provider": "^0.9.7"
+    },
+    "devDependencies": {
+        "tape": "^4.5.1"
+    }
+}
